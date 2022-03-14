@@ -9,6 +9,7 @@ namespace LibraryManagementCrud.CrudOpeartion.LibraryMembers
 {
     public class LibraryMemberOperation
     {
+        
         private readonly string connectionString = "Data Source=.;Initial Catalog=lms_db;Integrated Security=True";
         //string connectionString = ConfigurationManager.ConnectionStrings["CompanyDBConnect"].ConnectionString;
 

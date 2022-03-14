@@ -38,7 +38,7 @@ namespace LibraryManagementCrud.Models
         //[RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$", ErrorMessage = ("Email in format"))]
         public string SupplierEmail { get; set; }
 
-       public List<BookDetails> bookdetaillist = new List<BookDetails>();
+       public List<BookDetails> bookdetaillist { get; set; }
 
         public Suppliers()
         {

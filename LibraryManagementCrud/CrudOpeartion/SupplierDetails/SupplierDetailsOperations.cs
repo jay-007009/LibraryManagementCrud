@@ -60,7 +60,8 @@ namespace LibraryManagementCrud.CrudOpeartion.SupplierDetails
                         command.Parameters.AddWithValue("@SupplierId", supplier.SupplierId);
 
                         command.ExecuteNonQuery();
-                        command.Parameters.Clear();
+                        supplier.bookdetaillist.Add(bookdetails);
+                       command.Parameters.Clear();
                     }
                     commandsupplier.Parameters.Clear();
                     connection.Close();
